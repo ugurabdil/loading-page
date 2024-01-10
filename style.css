@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lemon&family=Rubik+Maps&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    
+    display: flex; 
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.bg{
+    background: no-repeat center/cover url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/5278b973057517.5bfd226687bb7.jpg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-Text{
+    
+    color: hsl(0, 0%, 0%);
+    font-size: 100px;
+    display: flex;
+    
+    
+
+
+}
